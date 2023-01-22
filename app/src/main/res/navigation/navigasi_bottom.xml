@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigasi_bottom"
+    app:startDestination="@id/beranda">
+
+    <fragment
+        android:id="@+id/beranda"
+        android:name="com.example.bottomnav.beranda_fragment"
+        android:label="beranda"
+        tools:layout="@layout/fragment_beranda_fragment" />
+    <fragment
+        android:id="@+id/musik"
+        android:name="com.example.bottomnav.musik"
+        android:label="musik"
+        tools:layout="@layout/fragment_musik" />
+    <fragment
+        android:id="@+id/setting"
+        android:name="com.example.bottomnav.setting"
+        android:label="setting"
+        tools:layout="@layout/fragment_setting" />
+</navigation>

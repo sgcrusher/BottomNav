@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item   android:title="Beranda"
+            android:icon="@drawable/home_ic"
+            android:id="@+id/beranda"/>
+
+    <item   android:title="Musik"
+            android:icon="@drawable/music_ic"
+            android:id="@+id/musik"/>
+
+    <item   android:title="Setting"
+            android:icon="@drawable/setting_ic"
+            android:id="@+id/setting"/>
+</menu>
